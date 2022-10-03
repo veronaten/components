@@ -57,6 +57,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "prettier": "2.7.1"
-  },
-  "homepage": "https://rolling-scopes-school.github.io/veronaten-REACT2022Q3/components/"
+  }
 }
