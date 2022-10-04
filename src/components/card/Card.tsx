@@ -7,7 +7,6 @@ import save from '../../assets/icons/save.png';
 
 interface CardProps {
   name: string;
-  key: number;
   description: string;
   link: string;
   picture: string | undefined;
@@ -32,7 +31,7 @@ class Card extends React.Component<CardProps, CardState> {
   }
 
   render() {
-    const { name, key, description, link, picture } = this.props;
+    const { name, description, link, picture } = this.props;
     const { count } = this.state;
     return (
       <div className="card">
